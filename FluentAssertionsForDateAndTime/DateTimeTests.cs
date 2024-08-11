@@ -8,7 +8,7 @@ public class DateTimeTests
     [Fact]
     public void DateTimeTests_ShouldBe_Fluent()
     {
-        //var dateTime = new DateTime(2001, 2, 3);
+        // var dateTime = new DateTime(2001, 2, 3);
         var dateTime = 3.February(2001);
 
         dateTime.Should().BeIn(DateTimeKind.Unspecified);
@@ -43,7 +43,7 @@ public class DateTimeTests
 
         dateTimeOffset.Should().BeCloseTo(4.February(2001), 25.Hours());
 
-        //Time:
+        // Time:
         var time = 12.Hours(30.Minutes());
         time.Minutes.Should().Be(30);
 
