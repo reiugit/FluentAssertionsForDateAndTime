@@ -1,6 +1,6 @@
 # FluentAssertions for date and time
 
-* Date and time in fluent syntax.
+Date and time in fluent syntax.<br>
 
 Example:
 
