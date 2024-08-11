@@ -1,4 +1,4 @@
-# FluentAssertions for date and time
+# FluentAssertions for DateTime, DateTimeOffset and TimeSpan
 
 Date and time in fluent syntax.
 
